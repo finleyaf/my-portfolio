@@ -1,0 +1,15 @@
+{
+    "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+      // add any custom rules here, for example:
+      "semi": ["error", "always"],
+      "quotes": ["error", "double"]
+    },
+    "settings": {
+      "import/resolver": {
+        "typescript": {}
+      }
+    }
+  }
+  
